@@ -147,16 +147,6 @@ export function ServicesManagement() {
                               {resource.unit}
                             </span>
                           </div>
-                          {/* <Progress
-                            value={
-                              typeof resource.used === "number" &&
-                              typeof resource.total === "number" &&
-                              resource.total > 0
-                                ? (resource.used / resource.total) * 100
-                                : 0
-                            }
-                            className="h-2"
-                          /> */}
                         </div>
                       )
                     )}

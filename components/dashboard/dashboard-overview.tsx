@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Progress } from '@/components/ui/progress';
+// import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import { 
   Globe, 
@@ -183,7 +183,7 @@ export function DashboardOverview() {
                       <span className="font-medium">{resource.value}%</span>
                     </div>
                     <div className="relative">
-                      <Progress value={resource.value} className="h-3" />
+                      {/* <Progress value={resource.value} className="h-3" /> */}
                       <motion.div
                         className={`absolute top-0 left-0 h-3 ${resource.color} rounded-full`}
                         initial={{ width: 0 }}
