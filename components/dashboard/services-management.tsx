@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
+// import { Progress } from "@/components/ui/progress";
 import {
   Server,
   Database,
@@ -147,7 +147,7 @@ export function ServicesManagement() {
                               {resource.unit}
                             </span>
                           </div>
-                          <Progress
+                          {/* <Progress
                             value={
                               typeof resource.used === "number" &&
                               typeof resource.total === "number" &&
@@ -156,7 +156,7 @@ export function ServicesManagement() {
                                 : 0
                             }
                             className="h-2"
-                          />
+                          /> */}
                         </div>
                       )
                     )}
