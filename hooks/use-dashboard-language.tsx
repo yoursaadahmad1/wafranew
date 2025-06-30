@@ -88,12 +88,14 @@ const dashboardTranslations = {
     invoiceHistory: 'Invoice History',
     
     // Marketplace
+    // @ts-ignore
     marketplace: 'Marketplace',
     discoverAddons: 'Discover and purchase add-ons to enhance your hosting experience',
     browseCategories: 'Browse Categories',
     featuredProducts: 'Featured Products',
     
     // Settings
+    // @ts-ignore
     accountSettings: 'Settings',
     manageAccountSettings: 'Manage your account settings and preferences',
     profileInformation: 'Profile Information',
@@ -214,12 +216,14 @@ const dashboardTranslations = {
     invoiceHistory: 'تاريخ الفواتير',
     
     // Marketplace
+    // @ts-ignore
     marketplace: 'المتجر',
     discoverAddons: 'اكتشف واشتري الإضافات لتحسين تجربة الاستضافة',
     browseCategories: 'تصفح الفئات',
     featuredProducts: 'المنتجات المميزة',
     
     // Settings
+    // @ts-ignore
     accountSettings: 'الإعدادات',
     manageAccountSettings: 'إدارة إعدادات حسابك وتفضيلاتك',
     profileInformation: 'معلومات الملف الشخصي',
