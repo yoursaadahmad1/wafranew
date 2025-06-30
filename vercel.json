@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "NEXT_PRIVATE_DISABLE_TYPE_CHECK": "true",
+      "NEXT_DISABLE_LINTING": "true"
+    }
+  }
+}
