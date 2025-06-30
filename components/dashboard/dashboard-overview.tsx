@@ -269,7 +269,7 @@ export function DashboardOverview() {
                     >
                       <a href={action.href}>
                         <Icon className="h-6 w-6" />
-                        <span className="text-xs font-medium">{t(action.name)}</span>
+                        <span className="text-xs font-medium">{t(action.name as any)}</span>
                       </a>
                     </Button>
                   </motion.div>
