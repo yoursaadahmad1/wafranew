@@ -6,7 +6,6 @@ import { useGSAP } from '@/hooks/use-gsap';
 
 export default function Dashboard() {
   useGSAP();
-  
   return (
     <DashboardLayout>
       <DashboardOverview />

@@ -6,7 +6,6 @@ import { useGSAP } from '@/hooks/use-gsap';
 
 export default function Services() {
   useGSAP();
-  
   return (
     <DashboardLayout>
       <ServicesManagement />
